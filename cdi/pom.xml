@@ -8,7 +8,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>viritin-vaadin-flow-cdi-flow-archetype</artifactId>
+    <artifactId>viritin-vaadin-flow-cdi-archetype</artifactId>
     <packaging>maven-archetype</packaging>
 
     <name>Viritin Vaadin Flow Archetype for Java EE projects</name>
