@@ -26,3 +26,4 @@ model-projects
 servlet/target
 cdi/target
 spring/target
+/target/
