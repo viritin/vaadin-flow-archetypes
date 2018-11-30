@@ -9,11 +9,10 @@ The project contains three basic archetypes for Vaadin 10+ (aka Flow).
 Create project with following command:
 
 ```
-mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generate  \
+mvn archetype:generate  \
     -DarchetypeGroupId=in.virit  \
     -DarchetypeArtifactId=viritin-vaadin-flow-archetype  \
-    -DarchetypeRepository=https://oss.sonatype.org/content/repositories/snapshots/  \
-    -DarchetypeVersion=1.0-SNAPSHOT
+    -DarchetypeVersion=1.0
 ```
 
 ## CDI (Java EE) version
@@ -21,23 +20,20 @@ mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generate  \
 Create project with following command:
 
 ```
-mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generate  \
+mvn archetype:generate  \
     -DarchetypeGroupId=in.virit  \
     -DarchetypeArtifactId=viritin-vaadin-flow-cdi-archetype  \
-    -DarchetypeRepository=https://oss.sonatype.org/content/repositories/snapshots/  \
-    -DarchetypeVersion=1.0-SNAPSHOT
+    -DarchetypeVersion=1.0 \
 ```
-
 
 ## Spring servlet
     
 Create project with following command:
 
 ```
-mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generate  \
+mvn archetype:generate  \
     -DarchetypeGroupId=in.virit  \
     -DarchetypeArtifactId=viritin-vaadin-flow-spring-archetype  \
-    -DarchetypeRepository=https://oss.sonatype.org/content/repositories/snapshots/  \
-    -DarchetypeVersion=1.0-SNAPSHOT
+    -DarchetypeVersion=1.0
 ```
 
