@@ -12,6 +12,7 @@
     <packaging>maven-archetype</packaging>
 
     <name>Viritin Vaadin Flow archetype for Spring Boot projects</name>
+    <description>This archetype creates a project base for Spring Boot + Vaadin application.</description>
 
     <build>
         <extensions>

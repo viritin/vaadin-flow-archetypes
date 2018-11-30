@@ -12,6 +12,7 @@
     <packaging>maven-archetype</packaging>
 
     <name>Viritin Vaadin Flow Archetype for Java EE projects</name>
+    <description>This archetype creates a project base for Java EE (CDI) with Vaadin UI.</description>
 
     <build>
         <extensions>

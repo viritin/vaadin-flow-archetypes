@@ -12,6 +12,7 @@
     <packaging>maven-archetype</packaging>
 
     <name>Archetype for minimal Vaadin Java application</name>
+    <description>This archetype creates a minimal Vaadin application for basic servlet container.</description>
   
     <build>
         <extensions>
