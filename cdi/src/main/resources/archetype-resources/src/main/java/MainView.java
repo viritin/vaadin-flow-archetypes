@@ -3,6 +3,7 @@
 #set( $symbol_escape = '\' )
 package ${package};
 
+import com.vaadin.flow.component.dependency.HtmlImport;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.notification.Notification;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
@@ -14,6 +15,7 @@ import javax.inject.Inject;
  * The main view contains a simple label element and a template element.
  */
 @Route
+@HtmlImport("css/shared-styles.html")
 public class MainView extends VerticalLayout {
 
     @Inject

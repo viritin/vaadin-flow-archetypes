@@ -5,15 +5,15 @@ It contains all the necessary configuration and some placeholder files to get yo
 
 Import the project to the IDE of your choosing as a Maven project. 
 
-Run application using
+Run application using preconfigured wildfly plugin
+
 ```
-mvn clean package tomee:run
+mvn clean package wildfly:run
 ```
 
-or in your Java EE container of choice.
+or in your Java EE container of choice via IDE.
 
 Open [http://localhost:8080/](http://localhost:8080/) in browser
-
 
 For documentation on using Vaadin Flow and CDI, visit [vaadin.com/docs](https://vaadin.com/docs/v10/flow/cdi/tutorial-cdi-basic.html)
 
