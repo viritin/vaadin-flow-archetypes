@@ -11,7 +11,7 @@ Create project with following command:
 ```
 mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generate  \
     -DarchetypeGroupId=in.virit  \
-    -DarchetypeArtifactId=vaadin-flow-archetype  \
+    -DarchetypeArtifactId=viritin-vaadin-flow-archetype  \
     -DarchetypeRepository=https://oss.sonatype.org/content/repositories/snapshots/  \
     -DarchetypeVersion=1.0-SNAPSHOT
 ```
@@ -23,20 +23,20 @@ Create project with following command:
 ```
 mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generate  \
     -DarchetypeGroupId=in.virit  \
-    -DarchetypeArtifactId=vaadin-flow-cdi-archetype  \
+    -DarchetypeArtifactId=viritin-vaadin-flow-cdi-archetype  \
     -DarchetypeRepository=https://oss.sonatype.org/content/repositories/snapshots/  \
     -DarchetypeVersion=1.0-SNAPSHOT
 ```
 
 
-## Plain servlet
+## Spring servlet
     
 Create project with following command:
 
 ```
 mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generate  \
     -DarchetypeGroupId=in.virit  \
-    -DarchetypeArtifactId=vaadin-flow-spring-archetype  \
+    -DarchetypeArtifactId=viritin-vaadin-flow-spring-archetype  \
     -DarchetypeRepository=https://oss.sonatype.org/content/repositories/snapshots/  \
     -DarchetypeVersion=1.0-SNAPSHOT
 ```

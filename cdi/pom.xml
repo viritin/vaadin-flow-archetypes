@@ -4,14 +4,14 @@
 
     <parent>
         <groupId>in.virit</groupId>
-        <artifactId>vaadin-flow-archetypes-parent</artifactId>
+        <artifactId>viritin-vaadin-flow-archetypes-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>vaadin-flow-cdi-archetype</artifactId>
+    <artifactId>viritin-vaadin-flow-cdi-flow-archetype</artifactId>
     <packaging>maven-archetype</packaging>
 
-    <name>Vaadin Flow Archetype for Java EE projects</name>
+    <name>Viritin Vaadin Flow Archetype for Java EE projects</name>
 
     <build>
         <extensions>
