@@ -6,7 +6,7 @@ The project contains three basic archetypes for Vaadin 10+ (aka Flow).
 
 ## Plain servlet
 
-Create project with following command:
+Create project with following command (or use these coordinates from your IDE):
 
 ```
 mvn archetype:generate  \
@@ -17,7 +17,7 @@ mvn archetype:generate  \
 
 ## CDI (Java EE) version
 
-Create project with following command:
+Create project with following command (or use these coordinates from your IDE):
 
 ```
 mvn archetype:generate  \
@@ -28,7 +28,7 @@ mvn archetype:generate  \
 
 ## Spring servlet
     
-Create project with following command:
+Create project with following command (or use these coordinates from your IDE):
 
 ```
 mvn archetype:generate  \
