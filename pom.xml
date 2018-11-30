@@ -8,6 +8,8 @@
     <packaging>pom</packaging>
  
     <name>viritin-vaadin-flow-archetypes-parent</name>
+    <description>This is a parent project for various Vaadin Flow archetypes.</description>
+    <url>https://github.com/viritin/vaadin-flow-archetypes</url>
 
     <developers>
         <developer>
