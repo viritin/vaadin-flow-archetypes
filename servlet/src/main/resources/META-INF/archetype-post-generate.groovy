@@ -8,5 +8,6 @@ def run(String cmd) {
     }
 }
 
-run("echo 'Updating to latest Vaadin version...'")
-run("mvn versions:update-properties")
+// commented out temporarily to aid testing 14.x pre-releases
+// run("echo 'Updating to latest Vaadin version...'")
+// run("mvn versions:update-properties")
