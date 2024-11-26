@@ -9,15 +9,15 @@
 
     <properties>
         <!-- Defaults come from parent, but shown here how to override -->
-        <vaadin.version>24.5.2</vaadin.version>
-        <spring-boot.version>3.3.5</spring-boot.version>
+        <vaadin.version>24.5.5</vaadin.version>
+        <spring-boot.version>3.4.0</spring-boot.version>
     </properties>
 
     <parent>
         <groupId>in.virit.sb</groupId>
         <!-- Use project-parent if you don't want to have Viritin dependency -->
         <artifactId>viritin-project-parent</artifactId>
-        <version>0.0.9</version>
+        <version>0.0.10</version>
         <relativePath/>
     </parent>
 

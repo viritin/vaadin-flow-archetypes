@@ -29,19 +29,8 @@
         <url>https://github.com/viritin/vaadin-flow-archetypes</url>
         <connection>scm:git:git://github.com/viritin/vaadin-flow-archetypes.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:/viritin/vaadin-flow-archetypes.git</developerConnection>
-      <tag>viritin-vaadin-flow-archetypes-parent-2.0</tag>
-  </scm>
-    <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
-        <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-        </repository>
-    </distributionManagement>
-
+        <tag>viritin-vaadin-flow-archetypes-parent-2.0</tag>
+    </scm>
     <modules>
         <!--
         <module>servlet</module>
@@ -51,19 +40,6 @@
     </modules>
   
     <build>
-        <plugins>
-            <plugin>
-                <groupId>org.sonatype.plugins</groupId>
-                <artifactId>nexus-staging-maven-plugin</artifactId>
-                <version>1.7.0</version>
-                <extensions>true</extensions>
-                <configuration>
-                    <serverId>ossrh</serverId>
-                    <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-                    <autoReleaseAfterClose>false</autoReleaseAfterClose>
-                </configuration>
-            </plugin>
-        </plugins>
         <pluginManagement>
             <plugins>
                 <plugin>
@@ -106,6 +82,16 @@
                                 </goals>
                             </execution>
                         </executions>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.sonatype.central</groupId>
+                        <artifactId>central-publishing-maven-plugin</artifactId>
+                        <version>0.6.0</version>
+                        <extensions>true</extensions>
+                        <configuration>
+                            <publishingServerId>central</publishingServerId>
+                            <autoPublish>true</autoPublish>
+                        </configuration>
                     </plugin>
                 </plugins>
             </build>
