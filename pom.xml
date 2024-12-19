@@ -3,7 +3,7 @@
  
     <groupId>in.virit</groupId>
     <artifactId>viritin-vaadin-flow-archetypes-parent</artifactId>
-    <version>2.6</version>
+    <version>2.7-SNAPSHOT</version>
     <packaging>pom</packaging>
  
     <name>viritin-vaadin-flow-archetypes-parent</name>
@@ -29,7 +29,7 @@
         <url>https://github.com/viritin/vaadin-flow-archetypes</url>
         <connection>scm:git:git://github.com/viritin/vaadin-flow-archetypes.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:/viritin/vaadin-flow-archetypes.git</developerConnection>
-        <tag>viritin-vaadin-flow-archetypes-parent-2.6</tag>
+        <tag>viritin-vaadin-flow-archetypes-parent-2.0</tag>
     </scm>
     <modules>
         <!--
